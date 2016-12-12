@@ -1,4 +1,4 @@
-class student:
+class Student:
     def __init__(self,name, hometown, age, height, favorite_icecream):
 
         self.name=name
@@ -9,8 +9,8 @@ class student:
 
     
     def print_summary (self):
-        print (' my name is '+self.name, ' I live in '+self.hometown,' I am ' +self.age ' years old ', ' my hight is '+self.height ' meters ', ' my favorite icecream is ' + self.favorite_icecream)
+        print (' my name is '+self.name + ' I live in '+self.hometown +' I am ' +str(self.age) + ' years old '+' my hight is '+str(self.height) +' meters '+ ' my favorite icecream is ' + self.favorite_icecream)
 
-    def get_giraffe_gap()
-       return(500-self.height)
+    #def get_giraffe_gap()
+       #return(500-self.height)
     
